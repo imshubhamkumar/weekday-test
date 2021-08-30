@@ -1,15 +1,12 @@
 # weekday-platform
 
-***DO NOT MERGE UNLESS REVIEWED***
-***DO NOT PUSH TO MASTER DIRECTLY**
-
-[![Deploy to Firebase Hosting on merge](https://github.com/Weekday-works/weekday-platform/actions/workflows/firebase-hosting-merge.yml/badge.svg?branch=master)](https://github.com/Weekday-works/weekday-platform/actions/workflows/firebase-hosting-merge.yml)
-
+**_DO NOT MERGE UNLESS REVIEWED_**
+**\*DO NOT PUSH TO MASTER DIRECTLY**
 
 Clone to your system and run
-** npm install
+\*\* yarn install
 
-To run locally, 
-** npm start
+To run locally,
+\*\* yarn run start
 
 Merges or pushes in master automatically build a deployment package and deploy to production.
