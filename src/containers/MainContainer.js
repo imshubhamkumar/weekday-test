@@ -1,6 +1,9 @@
 import React from "react";
 import "../css/styles.scss";
 import PropTypes from "prop-types";
+import Navbar from "./navbar";
+import Sidebar from "react-sidebar";
+import Candidates from "./candidates";
 
 class MainContainer extends React.Component {
   constructor(props) {
@@ -11,13 +14,13 @@ class MainContainer extends React.Component {
 
   render() {
     return (
-      <section
-        id="main-container"
-        className="main-section-without-bg"
-        style={{ backgroundColor: "#F2F2F2" }}
-      >
-        <div className="main-outer">Hello!!</div>
-      </section>
+      <>
+      <Navbar/>
+      <div className="main-container">
+        <Sidebar/>
+        <Candidates/>
+      </div>
+      </>
     );
   }
 }
